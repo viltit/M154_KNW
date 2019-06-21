@@ -11,6 +11,12 @@
    </properties>
 
    <dependencies>
+    <dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-server</artifactId>
+		<version>3.141.59</version>
+		<scope>test</scope>
+	</dependency>
    <dependency>
 	    <groupId>ch.villiger.titus.uek154.knw</groupId>
 	  	<artifactId>mvn_m154-crm-persistance</artifactId>
